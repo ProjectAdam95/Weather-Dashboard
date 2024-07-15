@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="weather-card">
                 <h2>${city}</h2>
                 <p>Date: ${new Date(weather.dt * 1000).toLocaleDateString()}</p>
-                <p><img src="http://openweathermap.org/img/wn/${weather.weather[0].icon}.png" alt="Weather icon"></p>
+                <p><img src="https://openweathermap.org/img/wn/${weather.weather[0].icon}.png" alt="Weather icon"></p>
                 <p>Temperature: ${weather.main.temp}°C</p>
                 <p>Humidity: ${weather.main.humidity}%</p>
                 <p>Wind Speed: ${weather.wind.speed} m/s</p>
@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
             forecast.innerHTML += `
                 <div class="weather-card">
                     <p>Date: ${new Date(weather.dt * 1000).toLocaleDateString()}</p>
-                    <p><img src="http://openweathermap.org/img/wn/${weather.weather[0].icon}.png" alt="Weather icon"></p>
+                    <p><img src="https://openweathermap.org/img/wn/${weather.weather[0].icon}.png" alt="Weather icon"></p>
                     <p>Temperature: ${weather.main.temp}°C</p>
                     <p>Humidity: ${weather.main.humidity}%</p>
                     <p>Wind Speed: ${weather.wind.speed} m/s</p>
