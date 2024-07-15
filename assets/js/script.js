@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // If the response is succesful converts it to JSON. If the city is found, 
     // Calls the fetchWeather function with the coordinates of the city. If the city is not found, displays an alert. Logs errors to the console
     const fetchCoordinates = (city) => {
-        fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${apiKey}`)
+        fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${apiKey}`)
             .then(response => response.ok ? response.json() : Promise.reject(response.statusText))
             .then(data => data.length ? fetchWeather(data[0].lat, data[0].lon, city) : alert('City not found'))
             .catch(console.error);
