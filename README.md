@@ -55,6 +55,8 @@ Weather-Dashboard/
 ├── index.html
 └── README.md
 
+```
+
 ###  :hammer: 
 Build
 - File changes updated and modified using terminal eg. Git bash to add, commit and pull e.t.c.
