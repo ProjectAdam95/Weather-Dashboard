@@ -1,3 +1,4 @@
+/* Styling for body */
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
@@ -5,44 +6,52 @@ body {
     padding: 20px;
 }
 
+/* Container styling for main content */
 .container {
     max-width: 600px;
     margin: 0 auto;
-    background-color: #fff;
+    background-color: #fff; /* Set the background color to white */
     padding: 20px;
-    box-shadow: 0 0 10px;
+    box-shadow: 0 0 10px; /* shadow around the container */
 }
 
+/* center allign for header, search section laval, current weather heading, and forecast section heading  */
 header h1, #search-section label, #current-weather h2, #forecast-section h3 {
     text-align: center;
 }
 
+/* Styling for search section label */
 #search-section label {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
+/* Styling for the form inside the search section */
 form {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
 }
 
+/* Styling for the input and button elements */
 input, button {
     padding: 10px;
     font-size: 16px;
 }
 
+/* Additional styling for the input element */
 input {
     margin-right: 10px;
     width: 70%;
 }
 
+/* Margin styling for search history, current weather, and forecast sections */
 #search-history, #current-weather, #forecast {
     margin-top: 20px;
 }
 
+/* Basic styling for weather and forecast cards */
 .weather-card, .forecast-card {
     background-color: #e0e0e0;
     padding: 10px;
@@ -50,11 +59,13 @@ input {
     text-align: center;
 }
 
+/* Flexbox styling for the forecast section */
 #forecast {
     display: flex;
     justify-content: space-between;
 }
 
+/* Additional styling for individual forecast cards */
 .forecast-card {
     flex: 1;
     min-width: 120px;

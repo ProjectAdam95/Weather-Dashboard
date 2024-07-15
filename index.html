@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- Metadata and links for the webpage -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,30 +11,41 @@
 
 
 <body>
+     <!-- Main container for the webpage content -->
      <div class="container">
         
+         <!-- Header section with the main title -->
         <header>
             <h1>Weather Dashboard</h1>
         </header>
+
+           <!-- Main content area -->
          <main>
+                <!-- Search section for looking up cities -->
             <section id="search-section">
                 <label for="city-input">Search for a City:</label>
+                 <!-- Form for city input and search button -->
                 <form id="city-form">
                     <input type="text" id="city-input" placeholder="Enter city name">
                     <button type="submit">Search</button>
                 </form>
+                 <!-- Div to display search history -->
                 <div id="search-history"></div>
             </section>
+            <!-- Section for displaying current weather information -->
             <section id="current-weather">
                 <h2>Current Weather</h2>
             </section>
+            <!-- Section for displaying 5-day weather forecast -->
             <section id="forecast-section">
                 <h3>5-Day Forecast:</h3>
+                <!-- Div to hold forecast data -->
                 <div id="forecast"></div>
             </section>
         </main>
     </div>
     
+    <!-- Link to the external JavaScript file -->
     <script src="js/script.js"></script>
 </body>
 
