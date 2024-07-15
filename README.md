@@ -1,6 +1,6 @@
 # Weather-Dashboard
 
-A weather dashboard that shows the temperature of a city
+A weather dashboard that enables the user to see a 5-day forecast for the city of choice.
 
 # Introduction
  
@@ -47,13 +47,13 @@ Weather-Dashboard/
 ├── assets/
 │   ├── css/
 │   │   └── style.css
-│   └── js/
-│        └── script.js
-│
+│   ├── js/
+│   │   └── script.js
+│   └── preview-photos/
+│       ├── WeatherDashboard.png
+│       └── WeatherDashboard2.png
 ├── index.html
 └── README.md
-
-```
 
 ###  :hammer: 
 Build
@@ -100,7 +100,7 @@ Development Tools:
 ##  :camera: Gallery
 Below is a preview photo of the website.
 
-Click here to view preview photos: ENTER WEBSITE HERE
+Click here to view preview photos: https://imgur.com/a/PdcBcEx
 
 
 ## :star2: Credit/Acknowledgment
