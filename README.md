@@ -69,7 +69,7 @@ Build
 
 ### :rocket: Deployment
 
-- To deploy the website please visit : ENTER WEBSITE HERE
+- To deploy the website please visit : https://projectadam95.github.io/Weather-Dashboard/
 
 - If this does not work you can navigate to the index.html file in the repossitory to deploy the webpage on your local browser. If you do not have a code editor such as VS code to view the html/css code try clicking the F12 button on your web browser to view the console and navigate through the elements on the page!
 
@@ -78,13 +78,13 @@ Build
  - Your contributions are always welcome and greatly appreciated. Here are some ways you can contribute to the project:
 
  1. **Report a bug** <br>
- If you think you have encountered a bug, and I should know about it, feel free to report it here [here](https://github.com/ProjectAdam95/Task-Board/issues). I will look into it and take the necessary steps.
+ If you think you have encountered a bug, and I should know about it, feel free to report it here [here](https://github.com/ProjectAdam95/Weather-Dashboard/issues). I will look into it and take the necessary steps.
  
  2. **Request a feature** <br>
- If you have a feature idea that you think would enhance the project, you can request it [here](https://github.com/ProjectAdam95/Task-Board/issues), If the feature is deemed viable, it will be considered for development. 
+ If you have a feature idea that you think would enhance the project, you can request it [here](https://github.com/ProjectAdam95/Weather-Dashboard/issues), If the feature is deemed viable, it will be considered for development. 
 
  3. **Create a pull request** <br>
- The best way to contribute is by creating a pull request. The community will appreciate your efforts. You can start by picking up any open issues from [here](https://github.com/ProjectAdam95/Task-Board/issues)and submitting a pull request.
+ The best way to contribute is by creating a pull request. The community will appreciate your efforts. You can start by picking up any open issues from [here](https://github.com/ProjectAdam95/Weather-Dashboard/issues)and submitting a pull request.
 
 ##  :page_facing_up: Resources
 
